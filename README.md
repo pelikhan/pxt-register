@@ -4,6 +4,9 @@
 
 > Open this page at [https://pelikhan.github.io/pxt-register/](https://pelikhan.github.io/pxt-register/)
 
+This library is port of various datastructures 
+from [Adafruit CircuitPython Register](https://github.com/adafruit/Adafruit_CircuitPython_Register).
+
 ## Use this extension
 
 This repository can be added as an **extension** in MakeCode.
@@ -20,13 +23,6 @@ To edit this repository in MakeCode.
 * open [https://arcade.makecode.com/](https://arcade.makecode.com/)
 * click on **Import** then click on **Import URL**
 * paste **https://github.com/pelikhan/pxt-register** and click import
-
-## Blocks preview
-
-This image shows the blocks code from the last commit in master.
-This image may take a few minutes to refresh.
-
-![A rendered view of the blocks](https://github.com/pelikhan/pxt-register/raw/master/.github/makecode/blocks.png)
 
 #### Metadata (used for search, rendering)
 

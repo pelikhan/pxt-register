@@ -1,4 +1,4 @@
-namespace i2cRegister {
+namespace register {
 
     export function write_then_readinto(i2c: pins.I2CDevice, outBuffer: Buffer, inBuffer: Buffer, outEnd: number, inStart: number) {
         if (outBuffer && outEnd > 0)
@@ -10,7 +10,7 @@ namespace i2cRegister {
     /** 
     * Single bit register that is readable and writeable.
     */
-    export class RWBit {
+    export class I2CRWBit {
         bit_mask: number;
         buffer: Buffer;
         byte: number;

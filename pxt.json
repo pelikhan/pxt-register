@@ -2,10 +2,9 @@
     "name": "pxt-i2c-register",
     "description": "",
     "dependencies": {
-        "device": "*"
+        "core": "*"
     },
     "files": [
-        "main.ts",
         "README.md",
         "i2cbit.ts",
         "i2cbits.ts"
@@ -13,6 +12,9 @@
     "testFiles": [
         "test.ts"
     ],
+    "testDependencies": {
+        "device": "*"
+    },
     "supportedTargets": [
         "arcade"
     ],

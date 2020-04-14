@@ -1,4 +1,4 @@
-namespace i2cRegister {
+namespace register {
     function range(start: number, end: number, interval: number = 1) {
         let r: number[] = [];
         if (interval > 0)
@@ -19,7 +19,7 @@ namespace i2cRegister {
     * Multibit register (less than a full byte) that is readable and writeable.
     * This must be within a byte register.
      */
-    export class RWBits {
+    export class I2CRWBits {
         bit_mask: number
         lowest_bit: number
         buffer: Buffer
